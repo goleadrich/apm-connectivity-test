@@ -1,22 +1,93 @@
 {
-  "test_id": "CDP-6C7CB75E5366",
+  "test_id": "CDP-B12D0E734B98",
   "source": "Chrome CDP on Windows",
   "status": "CAPTURE_COMPLETED",
-  "event_count": 2,
+  "event_count": 11,
   "events": [
     {
-      "time": "2026-10-30T07:39:02.606627+00:00",
+      "time": "2026-10-30T07:42:35.308860+00:00",
       "type": "session_start",
       "detail": {
-        "test_id": "CDP-6C7CB75E5366"
+        "test_id": "CDP-B12D0E734B98"
       }
     },
     {
-      "time": "2026-10-30T07:39:02.607410+00:00",
+      "time": "2026-10-30T07:42:35.310081+00:00",
       "type": "console",
       "detail": {
         "level": "log",
         "message": "APM_TEST_PAGE_READY"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:02.384917+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_CLICK BUTTON button-a"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:02.385790+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_TEST_BUTTON_A_CLICKED"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:07.625347+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_CLICK BUTTON button-b"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:07.625909+00:00",
+      "type": "console",
+      "detail": {
+        "level": "warning",
+        "message": "APM_TEST_BUTTON_B_CLICKED"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:09.483890+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_CLICK BUTTON button-error"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:09.485676+00:00",
+      "type": "console",
+      "detail": {
+        "level": "error",
+        "message": "APM_TEST_CONSOLE_ERROR"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:13.510717+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_CLICK A navigation"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:13.525535+00:00",
+      "type": "network_request",
+      "detail": {
+        "url": "https://goleadrich.github.io/apm-connectivity-test/index.html",
+        "resource": "Document"
+      }
+    },
+    {
+      "time": "2026-10-30T07:43:13.880691+00:00",
+      "type": "navigation",
+      "detail": {
+        "url": "https://goleadrich.github.io/apm-connectivity-test/index.html"
       }
     }
   ]
