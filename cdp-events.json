@@ -1,0 +1,23 @@
+{
+  "test_id": "CDP-6C7CB75E5366",
+  "source": "Chrome CDP on Windows",
+  "status": "CAPTURE_COMPLETED",
+  "event_count": 2,
+  "events": [
+    {
+      "time": "2026-10-30T07:39:02.606627+00:00",
+      "type": "session_start",
+      "detail": {
+        "test_id": "CDP-6C7CB75E5366"
+      }
+    },
+    {
+      "time": "2026-10-30T07:39:02.607410+00:00",
+      "type": "console",
+      "detail": {
+        "level": "log",
+        "message": "APM_TEST_PAGE_READY"
+      }
+    }
+  ]
+}
