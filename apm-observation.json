@@ -1,0 +1,168 @@
+{
+  "schema": "apm.observation-bridge.v1",
+  "report_id": "APM-OBS-FF6F2D2D05A0",
+  "generated_at": "2026-10-30T08:57:08.933154+00:00",
+  "privacy": "metadata-only; no console text, tokens, cookies, query strings or bodies",
+  "event_count": 31,
+  "counts": {
+    "observer": 1,
+    "response": 10,
+    "request": 20
+  },
+  "events": [
+    {
+      "kind": "observer",
+      "state": "connected"
+    },
+    {
+      "kind": "response",
+      "path": "/assets/index-2XLLtUZ_.js",
+      "status": 200
+    },
+    {
+      "kind": "request",
+      "path": "/assets/GeographicScene-B6xHDRMc.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/assets/GeographicScene-BNxYmUY0.css",
+      "method": "GET"
+    },
+    {
+      "kind": "response",
+      "path": "/assets/GeographicScene-BNxYmUY0.css",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/assets/GeographicScene-B6xHDRMc.js",
+      "status": 200
+    },
+    {
+      "kind": "request",
+      "path": "/gis/kti-network.geojson",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/gis/kti-network-manifest.json",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/gis/osm-roads.geojson",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/gis/osm-buildings.geojson",
+      "method": "GET"
+    },
+    {
+      "kind": "response",
+      "path": "/gis/kti-network.geojson",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/gis/osm-buildings.geojson",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/gis/osm-roads.geojson",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/gis/kti-network-manifest.json",
+      "status": 200
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Assets/approximateTerrainHeights.json",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Assets/Images/ion-credit.png",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createVerticesFromHeightmap.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/transferTypedArrayTest.js",
+      "method": "GET"
+    },
+    {
+      "kind": "response",
+      "path": "/cesium/Assets/approximateTerrainHeights.json",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+      "status": 200
+    },
+    {
+      "kind": "response",
+      "path": "/cesium/Assets/Images/ion-credit.png",
+      "status": 200
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/createGeometry.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/incrementallyBuildTerrainPicker.js",
+      "method": "GET"
+    },
+    {
+      "kind": "request",
+      "path": "/cesium/Workers/combineGeometry.js",
+      "method": "GET"
+    }
+  ]
+}
