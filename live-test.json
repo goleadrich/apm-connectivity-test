@@ -1,0 +1,8 @@
+﻿{
+    "test_id":  "LIVE-F5A37448B759",
+    "source":  "Windows PowerShell",
+    "timestamp":  "2026-10-30T14:31:27+07:00",
+    "computer_test":  "APM CONNECTIVITY",
+    "status":  "READY_FOR_CHATGPT",
+    "message":  "Data ini dibuat langsung dari PowerShell Windows"
+}
